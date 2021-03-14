@@ -49,11 +49,12 @@ namespace Calculator
             this.OpenBracketButton = new System.Windows.Forms.Button();
             this.CloseBracketButton = new System.Windows.Forms.Button();
             this.PowerButton = new System.Windows.Forms.Button();
+            this.ExpressionBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // SevenButton
             // 
-            this.SevenButton.Location = new System.Drawing.Point(13, 42);
+            this.SevenButton.Location = new System.Drawing.Point(12, 63);
             this.SevenButton.Name = "SevenButton";
             this.SevenButton.Size = new System.Drawing.Size(30, 30);
             this.SevenButton.TabIndex = 0;
@@ -63,7 +64,7 @@ namespace Calculator
             // 
             // EightButton
             // 
-            this.EightButton.Location = new System.Drawing.Point(49, 42);
+            this.EightButton.Location = new System.Drawing.Point(48, 63);
             this.EightButton.Name = "EightButton";
             this.EightButton.Size = new System.Drawing.Size(30, 30);
             this.EightButton.TabIndex = 1;
@@ -73,7 +74,7 @@ namespace Calculator
             // 
             // NineButton
             // 
-            this.NineButton.Location = new System.Drawing.Point(85, 42);
+            this.NineButton.Location = new System.Drawing.Point(84, 63);
             this.NineButton.Name = "NineButton";
             this.NineButton.Size = new System.Drawing.Size(30, 30);
             this.NineButton.TabIndex = 2;
@@ -83,7 +84,7 @@ namespace Calculator
             // 
             // FourButton
             // 
-            this.FourButton.Location = new System.Drawing.Point(13, 78);
+            this.FourButton.Location = new System.Drawing.Point(12, 99);
             this.FourButton.Name = "FourButton";
             this.FourButton.Size = new System.Drawing.Size(30, 30);
             this.FourButton.TabIndex = 3;
@@ -93,7 +94,7 @@ namespace Calculator
             // 
             // FiveButton
             // 
-            this.FiveButton.Location = new System.Drawing.Point(49, 78);
+            this.FiveButton.Location = new System.Drawing.Point(48, 99);
             this.FiveButton.Name = "FiveButton";
             this.FiveButton.Size = new System.Drawing.Size(30, 30);
             this.FiveButton.TabIndex = 4;
@@ -103,7 +104,7 @@ namespace Calculator
             // 
             // SixButton
             // 
-            this.SixButton.Location = new System.Drawing.Point(85, 78);
+            this.SixButton.Location = new System.Drawing.Point(84, 99);
             this.SixButton.Name = "SixButton";
             this.SixButton.Size = new System.Drawing.Size(30, 30);
             this.SixButton.TabIndex = 5;
@@ -113,7 +114,7 @@ namespace Calculator
             // 
             // OneButton
             // 
-            this.OneButton.Location = new System.Drawing.Point(13, 114);
+            this.OneButton.Location = new System.Drawing.Point(12, 135);
             this.OneButton.Name = "OneButton";
             this.OneButton.Size = new System.Drawing.Size(30, 30);
             this.OneButton.TabIndex = 6;
@@ -123,7 +124,7 @@ namespace Calculator
             // 
             // TwoButton
             // 
-            this.TwoButton.Location = new System.Drawing.Point(49, 114);
+            this.TwoButton.Location = new System.Drawing.Point(48, 135);
             this.TwoButton.Name = "TwoButton";
             this.TwoButton.Size = new System.Drawing.Size(30, 30);
             this.TwoButton.TabIndex = 7;
@@ -133,7 +134,7 @@ namespace Calculator
             // 
             // ThreeButton
             // 
-            this.ThreeButton.Location = new System.Drawing.Point(85, 114);
+            this.ThreeButton.Location = new System.Drawing.Point(84, 135);
             this.ThreeButton.Name = "ThreeButton";
             this.ThreeButton.Size = new System.Drawing.Size(30, 30);
             this.ThreeButton.TabIndex = 8;
@@ -143,7 +144,7 @@ namespace Calculator
             // 
             // SingleZeroButton
             // 
-            this.SingleZeroButton.Location = new System.Drawing.Point(12, 150);
+            this.SingleZeroButton.Location = new System.Drawing.Point(11, 171);
             this.SingleZeroButton.Name = "SingleZeroButton";
             this.SingleZeroButton.Size = new System.Drawing.Size(30, 30);
             this.SingleZeroButton.TabIndex = 9;
@@ -153,7 +154,7 @@ namespace Calculator
             // 
             // DoubleZeroButton
             // 
-            this.DoubleZeroButton.Location = new System.Drawing.Point(49, 150);
+            this.DoubleZeroButton.Location = new System.Drawing.Point(48, 171);
             this.DoubleZeroButton.Name = "DoubleZeroButton";
             this.DoubleZeroButton.Size = new System.Drawing.Size(66, 30);
             this.DoubleZeroButton.TabIndex = 10;
@@ -172,7 +173,7 @@ namespace Calculator
             // 
             // EqualsButton
             // 
-            this.EqualsButton.Location = new System.Drawing.Point(157, 150);
+            this.EqualsButton.Location = new System.Drawing.Point(156, 171);
             this.EqualsButton.Name = "EqualsButton";
             this.EqualsButton.Size = new System.Drawing.Size(30, 30);
             this.EqualsButton.TabIndex = 12;
@@ -181,7 +182,7 @@ namespace Calculator
             // 
             // AddButton
             // 
-            this.AddButton.Location = new System.Drawing.Point(121, 42);
+            this.AddButton.Location = new System.Drawing.Point(120, 63);
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(30, 30);
             this.AddButton.TabIndex = 13;
@@ -190,7 +191,7 @@ namespace Calculator
             // 
             // SubtractButton
             // 
-            this.SubtractButton.Location = new System.Drawing.Point(121, 78);
+            this.SubtractButton.Location = new System.Drawing.Point(120, 99);
             this.SubtractButton.Name = "SubtractButton";
             this.SubtractButton.Size = new System.Drawing.Size(30, 30);
             this.SubtractButton.TabIndex = 14;
@@ -199,7 +200,7 @@ namespace Calculator
             // 
             // MultiplyButton
             // 
-            this.MultiplyButton.Location = new System.Drawing.Point(157, 42);
+            this.MultiplyButton.Location = new System.Drawing.Point(156, 63);
             this.MultiplyButton.Name = "MultiplyButton";
             this.MultiplyButton.Size = new System.Drawing.Size(30, 30);
             this.MultiplyButton.TabIndex = 15;
@@ -208,7 +209,7 @@ namespace Calculator
             // 
             // DivideButton
             // 
-            this.DivideButton.Location = new System.Drawing.Point(157, 78);
+            this.DivideButton.Location = new System.Drawing.Point(156, 99);
             this.DivideButton.Name = "DivideButton";
             this.DivideButton.Size = new System.Drawing.Size(30, 30);
             this.DivideButton.TabIndex = 16;
@@ -217,7 +218,7 @@ namespace Calculator
             // 
             // OpenBracketButton
             // 
-            this.OpenBracketButton.Location = new System.Drawing.Point(121, 114);
+            this.OpenBracketButton.Location = new System.Drawing.Point(120, 135);
             this.OpenBracketButton.Name = "OpenBracketButton";
             this.OpenBracketButton.Size = new System.Drawing.Size(30, 30);
             this.OpenBracketButton.TabIndex = 17;
@@ -226,7 +227,7 @@ namespace Calculator
             // 
             // CloseBracketButton
             // 
-            this.CloseBracketButton.Location = new System.Drawing.Point(157, 114);
+            this.CloseBracketButton.Location = new System.Drawing.Point(156, 135);
             this.CloseBracketButton.Name = "CloseBracketButton";
             this.CloseBracketButton.Size = new System.Drawing.Size(30, 30);
             this.CloseBracketButton.TabIndex = 18;
@@ -235,18 +236,26 @@ namespace Calculator
             // 
             // PowerButton
             // 
-            this.PowerButton.Location = new System.Drawing.Point(121, 150);
+            this.PowerButton.Location = new System.Drawing.Point(120, 171);
             this.PowerButton.Name = "PowerButton";
             this.PowerButton.Size = new System.Drawing.Size(30, 30);
             this.PowerButton.TabIndex = 19;
             this.PowerButton.Text = "^";
             this.PowerButton.UseVisualStyleBackColor = true;
             // 
+            // ExpressionBox
+            // 
+            this.ExpressionBox.Location = new System.Drawing.Point(11, 34);
+            this.ExpressionBox.Name = "ExpressionBox";
+            this.ExpressionBox.Size = new System.Drawing.Size(175, 23);
+            this.ExpressionBox.TabIndex = 20;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(210, 191);
+            this.ClientSize = new System.Drawing.Size(210, 222);
+            this.Controls.Add(this.ExpressionBox);
             this.Controls.Add(this.PowerButton);
             this.Controls.Add(this.CloseBracketButton);
             this.Controls.Add(this.OpenBracketButton);
@@ -296,6 +305,7 @@ namespace Calculator
         private System.Windows.Forms.Button OpenBracketButton;
         private System.Windows.Forms.Button CloseBracketButton;
         private System.Windows.Forms.Button PowerButton;
+        private System.Windows.Forms.TextBox ExpressionBox;
     }
 }
 
