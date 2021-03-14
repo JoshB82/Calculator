@@ -40,5 +40,45 @@ namespace Calculator
         private void SingleZeroButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "0", newTerm += "0");
 
         private void DoubleZeroButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "00", newTerm += "00");
+
+        private void AddButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SubtractButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MultiplyButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DivideButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OpenBracketButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CloseBracketButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PowerButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EqualsButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
