@@ -17,57 +17,57 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void SevenButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void EightButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void NineButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void FourButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void FiveButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void SixButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void OneButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void TwoButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void ThreeButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void SingleZeroButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void DoubleZeroButton_Click(object sender, EventArgs e)
         {
 
         }
