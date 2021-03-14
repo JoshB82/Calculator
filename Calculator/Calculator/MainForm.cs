@@ -13,10 +13,12 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void UpdateDisplay(string newExpression, string newTerm)
+        private void UpdateDisplay(string newExpression, string newTerm, bool isOperation = false)
         {
             ExpressionBox.Text = newExpression;
+
             ResultDisplay.Text = newTerm;
+            if (isOperation) this.newTerm = "";
         }
 
         private void SevenButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "7", newTerm += "7");
@@ -41,13 +43,13 @@ namespace Calculator
 
         private void DoubleZeroButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "00", newTerm += "00");
 
-        private void AddButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "+", newTerm);
+        private void AddButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "+", newTerm, true);
 
-        private void SubtractButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "-", newTerm);
+        private void SubtractButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "-", newTerm, true);
 
-        private void MultiplyButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "*", newTerm);
+        private void MultiplyButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "*", newTerm, true);
 
-        private void DivideButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "/", newTerm);
+        private void DivideButton_Click(object sender, EventArgs e) => UpdateDisplay(expression += "/", newTerm, true);
 
         private void OpenBracketButton_Click(object sender, EventArgs e)
         {
