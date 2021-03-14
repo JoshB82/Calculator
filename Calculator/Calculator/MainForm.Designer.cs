@@ -179,6 +179,7 @@ namespace Calculator
             this.EqualsButton.TabIndex = 12;
             this.EqualsButton.Text = "=";
             this.EqualsButton.UseVisualStyleBackColor = true;
+            this.EqualsButton.Click += new System.EventHandler(this.EqualsButton_Click);
             // 
             // AddButton
             // 
@@ -188,6 +189,7 @@ namespace Calculator
             this.AddButton.TabIndex = 13;
             this.AddButton.Text = "+";
             this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // SubtractButton
             // 
@@ -197,6 +199,7 @@ namespace Calculator
             this.SubtractButton.TabIndex = 14;
             this.SubtractButton.Text = "-";
             this.SubtractButton.UseVisualStyleBackColor = true;
+            this.SubtractButton.Click += new System.EventHandler(this.SubtractButton_Click);
             // 
             // MultiplyButton
             // 
@@ -206,6 +209,7 @@ namespace Calculator
             this.MultiplyButton.TabIndex = 15;
             this.MultiplyButton.Text = "x";
             this.MultiplyButton.UseVisualStyleBackColor = true;
+            this.MultiplyButton.Click += new System.EventHandler(this.MultiplyButton_Click);
             // 
             // DivideButton
             // 
@@ -215,6 +219,7 @@ namespace Calculator
             this.DivideButton.TabIndex = 16;
             this.DivideButton.Text = "÷";
             this.DivideButton.UseVisualStyleBackColor = true;
+            this.DivideButton.Click += new System.EventHandler(this.DivideButton_Click);
             // 
             // OpenBracketButton
             // 
@@ -224,6 +229,7 @@ namespace Calculator
             this.OpenBracketButton.TabIndex = 17;
             this.OpenBracketButton.Text = "(";
             this.OpenBracketButton.UseVisualStyleBackColor = true;
+            this.OpenBracketButton.Click += new System.EventHandler(this.OpenBracketButton_Click);
             // 
             // CloseBracketButton
             // 
@@ -233,6 +239,7 @@ namespace Calculator
             this.CloseBracketButton.TabIndex = 18;
             this.CloseBracketButton.Text = ")";
             this.CloseBracketButton.UseVisualStyleBackColor = true;
+            this.CloseBracketButton.Click += new System.EventHandler(this.CloseBracketButton_Click);
             // 
             // PowerButton
             // 
@@ -242,6 +249,7 @@ namespace Calculator
             this.PowerButton.TabIndex = 19;
             this.PowerButton.Text = "^";
             this.PowerButton.UseVisualStyleBackColor = true;
+            this.PowerButton.Click += new System.EventHandler(this.PowerButton_Click);
             // 
             // ExpressionBox
             // 
@@ -250,7 +258,7 @@ namespace Calculator
             this.ExpressionBox.Size = new System.Drawing.Size(175, 23);
             this.ExpressionBox.TabIndex = 20;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -276,7 +284,7 @@ namespace Calculator
             this.Controls.Add(this.NineButton);
             this.Controls.Add(this.EightButton);
             this.Controls.Add(this.SevenButton);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
